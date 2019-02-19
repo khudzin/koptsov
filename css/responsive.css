@@ -1,0 +1,1091 @@
+/* @media  (max-width: 321px) {
+.custom-select select  {
+    font-size: 9px!important; 
+} 
+} */
+/* @media (max-width: 320px){
+.custom-select select {
+    font-size: 9px!important;
+}
+} */
+@media (max-width: 375px){
+.custom-select select {
+    font-size: 9px!important;
+}
+	.form-group .d-flex .container .checkmark {
+		left: 55px!important;;
+	}
+}
+
+
+
+@media  (max-width: 575.98px) { 
+	body {
+		padding-top:40px; 
+	}
+	.nav, .enter {
+		position: absolute; 
+		width: 250px; 
+		height: inherit;
+		background: #fff;
+		opacity: 0.9; 
+		
+		left:-300px; 
+		z-index: 99; 
+		transition: 1.2s 
+	}
+	.nav {
+		top:96px;
+	}
+	.enter {
+		top:65px;
+	}
+	.nav ul,  {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.nav ul li, .enter a{
+		margin: 25px;
+	}
+	.nav ul li a, .enter a{
+		color: #000; 
+		font-size: 12px;
+	}
+	.active {
+		left:0;
+	}
+	.toggle-btn {
+		display: block;
+	}
+	.nav .toggle-btn {
+		position: absolute; 
+		top:30px; 
+		left:280px;
+	}
+	.toggle-btn {
+		padding: 0 0 30px 15px;
+	}
+	.toggle-btn span {
+		width:40px; 
+		height: 5px; 
+		background: #0A303A; 
+		display: block; 
+		margin-top: 4px;
+		transition:0.8s;
+	}
+	.toggle-btn span:last-child {
+		width:20px;
+		transition:0.8s;
+	}
+	.d-flex {
+		display: block;
+	}
+	.offer_duis {
+		margin: 0 15px;
+	}
+	.img-adaptiv {
+		margin:0 15px;
+		width: 90%;
+	}
+
+	.info {
+		position: absolute;
+		width: 50vw;
+		left: 15px;
+		top:720px;
+		padding: 15px 40px;
+		transform: translateX(0%);
+	}
+	.info_title {
+		margin: 45px 0;
+	}
+	.info_author, 
+	.info_text {
+		width: inherit;
+	}
+	.link_sliders {
+		transform: rotate(-90deg) scale(0.75);		
+		transform-origin: right bottom;
+		top: 250px;
+	}
+	.link_sliders__right svg{display: none;}
+	.modern-psychiatry {
+		flex-direction: column-reverse;
+		padding-top: 465px;
+		margin:0 15px; 
+	}
+	
+	h1,
+	.modern-psychiatry_text,
+	.detail,
+	.pos,
+	.areas_info,
+	.number,
+	.benefits_info {
+		margin: 0;
+	}
+	h1 {
+		font-size: 38px;
+		margin: 60px 0 15px 0;
+		padding: 0 15px;
+	}
+	.modern-psychiatry_text {
+		margin-bottom: 15px;
+		padding: 0 15px;
+	}
+	.language {
+		margin-right: 15px;
+	}
+	.detail {
+		text-align: right;
+		margin-bottom: 15px;
+	}
+	.detail:first-child {
+		margin-bottom: 60px;
+	}
+	.btn_question {
+		margin: 0 auto;
+		width: 180px;
+	}
+	.blok_right__text {
+		transform: rotate(0deg); 
+		transform-origin: 0;
+		left: 15px;
+		top: 0px;
+	}
+	#brtext1 {
+		top:450px;
+	}
+	.section_num, .number {
+		font-size: 170px;
+		top: 420px;
+		right: -15px;
+	}
+	.blok_right {
+		position: relative;
+		z-index: 1;
+		border-bottom: 1px solid #000;
+		border-right: none;
+		width: inherit;
+		max-width: 225px;
+		margin: 0; padding: 0;
+	}
+	.link_section {
+		display: none;
+	}
+	
+
+	.areas, 
+	.benefits, 
+	.specialist, 
+	.operating-procedure, 
+	.publication-reviews {
+		display: flex;
+		flex-direction: column;
+		margin: 0 15px;
+	}
+	.number {
+		position: absolute;
+		top:-40px;
+		z-index: 0;}
+	.blok_pink {
+		height:inherit;
+		width: 70vw;
+		margin-top: 100px;
+	}
+	.blok_pink__info {
+		width: 290px; 
+		position: relative; 
+		top: 0px; 
+		left: 0px;
+		padding: 15px 0;
+	}
+    h2 {
+    	margin:15px;
+    	font-size: 38px;
+    	width: 260px;
+    }
+    .blok_pink__text {
+    	padding: 0 15px 15px 15px; 
+    	margin-left: 50px; 
+    	
+    }
+    .areas_info {
+    	padding: 0 15px;
+    }
+    .areas_info:nth-child(3) h3 {
+		margin-top: 60px;
+	}
+    .specialist {
+    	display:flex; 
+    	padding: 15px 15px;
+    }
+    .specialist_text__directions {
+    	font-size: 20px;
+    }
+    .specialist_list {
+    	font-size: 20px;
+    }
+
+    .specialist_list__nlp::before, 
+    .specialist_list__practitioner::before, 
+    .specialist_list__integral::before {
+    	font-size: 26px;
+    }
+    .photo {
+    	float: none; 
+    	margin-top: 15px;
+    }
+    .photo img {
+    	width: 100%;
+    	max-width: 420px;
+    }
+    .btn_certificates {
+    	width: inherit;
+    }
+
+    .operating-procedure_info, 
+    .reviews, .reviews h3, 
+    .quote-author, 
+    .publications {
+    	margin:0; 
+    	padding: 15px 15px; 
+    	width: inherit;
+    }
+	.currency{
+		display: block;
+			&::before {
+			content: attr(data-text);
+			}
+		}
+	.operating-procedure_info__text {
+		margin-bottom: 60px;
+	}
+	.operating-procedure {
+		padding-bottom: 60px;
+	}
+	footer nav {
+		display: none;
+	}
+	ul.breadcrumb {
+		margin-top: 360px;
+	}
+	.blog_container {
+		flex-direction: column-reverse;
+	}
+	.blog_content {
+		margin: 15px;
+		width: 95%;
+	}
+	.article_author, .article_date {
+		margin-top: 15px;
+	}
+	.article_title h3 {
+		margin-bottom: 15px;
+	}
+	.blog_pagination, .feedback_pagination {
+		text-align: center;
+		margin-bottom: 34px;
+	}
+	.blog_pagination a, .feedback_pagination a {
+		font-size: 22px;
+	}
+	.p_pages a+a:before, .p_more {
+     padding: 0px; 
+	}
+	.sidebar {
+		width: inherit;
+	}
+	.copyrights {
+    	margin: 15px 0;}
+
+
+	.contact_info{
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+	.contact_info_text, .list-contact {
+		margin:15px 15px 60px 15px;
+	}
+	.list-contact {
+		font-size:18px;}
+	.list-contact li {
+		flex-wrap: wrap;
+	}
+	.list-contact a {
+		display: table;
+		min-width: 200px;
+	}
+	.btn_form {
+		width: inherit; 
+	}
+
+	.feedback_container {
+		flex-wrap: wrap;
+		margin: 15px;
+	}
+	.user_signature { 
+		margin-left: 0px;
+	/*
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);*/
+	}
+	.feedback_message {
+		height: inherit;
+		padding-right: 0px;
+	}
+	.quote:before, .quote:after {
+		display: none;
+	}
+	.feedback_read_more {
+		margin: 25px 0;
+		transform: translateY(0px);
+	}
+	.social-cont{
+		transform: scale(0.8);
+	}
+    
+    /* process*/
+    .process {
+	padding: 30px 0;
+}
+    .process_info{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .process_list, .process_list__i{
+        max-width: 280px;
+    }
+        .list_title__i{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .list_title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    /* process end */
+    
+    /*modal-order*/
+    .custom-select{
+        
+    }
+    .modal-order .form-group .d-flex, modal-subscription .form-group .d-flex {
+	    display: flex;
+        flex-direction: column;
+    }
+    .form-group .d-flex .container {
+	    margin-top: 10px;
+        padding-left: 0px;
+        margin-left: 0px;
+     }
+    
+    .form-group .d-flex .container .checkmark{
+       left: 85px; 
+    }
+      .form-group .d-flex .container .checkmark.square{
+        left: 0;
+    }
+	.custom-select select option[value], .custom-select select {
+    		 font-size: 12px; 
+	}
+	
+    /*modal-order end*/
+	
+	    
+    /* certificates */
+    .certificates_dates{
+        transform: none;
+        position: static;
+        text-align: center;
+    }
+    .certificates_dates::before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    background: rgb(89, 88, 89, 0.55);
+    display: inline-block;
+    margin-bottom: 47px;
+    position: absolute;
+    left: 50%;
+        top: 7%;
+    }
+	.certificates_dates__fifteen::before {
+    content: "";
+    width: 1px;
+    height: 40px;
+    background: rgb(89, 88, 89, 0.55);
+    display: inline-block;
+    margin-bottom: 47px;
+    position: absolute;
+    left: 50%;
+        top: 15%;
+    }
+    .certificates_slider{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .certificates_slider::before {
+        display: none;
+    }
+    .certificat-three p, .certificat-two p, .certificat-four p, .certificat-four p, .certificat-five p{
+        text-align: center;
+            margin-left: 0px;
+            margin-top: 20px;
+    }
+    .certificates_slider__link {
+        justify-content: center;
+        margin-left: 0px;
+            margin-top: 20px;
+        display: flex;
+    }
+    /* certificates end*/
+	.feedback_full_message {
+		margin: 0; 
+		padding: 50px 15px 0 15px;
+	}
+}
+    
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+		body {
+		padding-top:40px; 
+	}
+	.nav, .enter {
+		position: absolute; 
+		width: 320px; 
+		height: inherit;
+		background: #fff;
+		opacity: 0.9; 
+		
+		left:-300px; 
+		z-index: 99; 
+		transition: 1.2s 
+	}
+	.nav {
+		top:96px;
+	}
+	.enter {
+		top:65px;
+	}
+	.nav ul,  {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.nav ul li, .enter a{
+		margin: 25px;
+	}
+	.nav ul li a, .enter a{
+		color: #000; 
+		font-size: 14px;
+	}
+	.active {
+		left:0;
+	}
+	.toggle-btn {
+		display: block;
+	}
+	.nav .toggle-btn {
+		position: absolute; 
+		top:30px; 
+		left:280px;
+	}
+	.toggle-btn {
+		padding: 0 0 30px 15px;
+	}
+	.toggle-btn span {
+		width:40px; 
+		height: 5px; 
+		background: #0A303A; 
+		display: block; 
+		margin-top: 4px;
+		transition:0.8s;
+	}
+	.toggle-btn span:last-child {
+		width:20px;
+		transition:0.8s;
+	}
+
+	.toggle-btn.active span{
+		width:45px; 
+		transition:0.8s;
+	}
+	.d-flex {
+		display: block;
+	}
+	.offer {
+		display: flex!important;
+	}
+	.offer_duis {
+		margin: 0 15px;
+		transform: rotate(-90deg);
+		position: relative;
+		left: 65px;
+		top: 115px;
+		height: 50px;
+		min-width: 220px;
+	}
+
+	.img-adaptiv {
+		margin:0 15px;
+		width: 90%;
+		min-width: 490px;
+	}
+
+	.info {
+		position: absolute;
+		width: 50vw;
+		left: 80px;
+		top:620px;
+		padding: 15px 40px;
+		transform: translateX(0%);
+		height: inherit;
+	}
+	.info_title {
+		margin: 45px 0;
+	}
+	.info_author, 
+	.info_text {
+		width: inherit;
+	}
+	.link_sliders {
+		transform: rotate(-90deg);		
+		transform-origin: right bottom;
+		top: 189px;
+	}
+	.link_sliders__right svg{display: none;}
+	.modern-psychiatry {
+		flex-direction: column-reverse;
+		padding-top: 350px;
+		margin:0 15px; 
+	}
+	
+	h1,
+	.modern-psychiatry_text,
+	.detail,
+	.pos,
+	.areas_info,
+	.number,
+	.benefits_info {
+		margin: 0;
+	}
+	h1 {
+		font-size: 38px;
+		margin: 60px 0 15px 0;
+		padding: 0 15px;
+	}
+	.modern-psychiatry_text {
+		margin-bottom: 15px;
+		padding: 0 15px;
+	}
+	.language {
+		margin-right: 15px;
+	}
+	.detail {
+		text-align: right;
+		margin-bottom: 15px;
+	}
+	.detail:first-child {
+		margin-bottom: 60px;
+	}
+	.btn_question {
+		margin: 0 auto;
+		width: 180px;
+	}
+	.blok_right__text {
+		transform: rotate(0deg); 
+		transform-origin: 0;
+		left: 15px;
+		top: 0px;
+	}
+	#brtext1 {
+		top:340px;
+	}
+	.section_num, .number {
+		
+		top: 250px;
+		right: -15px;
+	}
+	.blok_right {
+		position: relative;
+		z-index: 1;
+		border-bottom: 1px solid #000;
+		border-right: none;
+		width: inherit;
+		max-width: 225px;
+		margin: 0; padding: 0;
+	}
+	.link_section {
+		display: none;
+	}
+	
+
+	.areas, 
+	.benefits, 
+	.specialist, 
+	.operating-procedure, 
+	.publication-reviews {
+		display: flex;
+		flex-direction: column;
+		margin: 0 15px;
+	}
+	.number {
+		position: absolute;
+		top:-60px;
+		z-index: 0;}
+	.blok_pink {
+		position: relative;
+		z-index: 1;
+		height:inherit;
+		width: 50vw;
+		margin-top: 100px;
+	}
+	.blok_pink__info {
+		width: 290px; 
+		position: relative; 
+		top: 0px; 
+		left: 0px;
+		padding: 15px 0;
+	}
+    h2 {
+    	margin:15px 60px;
+    	font-size: 38px;
+    	width: 400px;
+    }
+    .blok_pink__text {
+    	padding: 0 15px 15px 15px; 
+    	margin-left: 170px; 
+    	z-index: 1;
+    	width: 400px;
+    }
+    .areas_info {
+    	padding: 0 15px;
+    }
+    .areas_info:nth-child(3) h3 {
+		margin-top: 60px;
+	}
+    .specialist {
+    	display:flex; 
+    	padding: 15px 15px;
+    }
+    .specialist_text__directions {
+    	font-size: 20px;
+    }
+    .specialist_list {
+    	font-size: 20px;
+    }
+
+    .specialist_list__nlp::before, 
+    .specialist_list__practitioner::before, 
+    .specialist_list__integral::before {
+    	font-size: 26px;
+    }
+    .photo {
+    	float: none; 
+    	margin-top: 15px;
+    }
+    .photo img {
+    	width: 100%;
+    	max-width: 420px;
+    }
+    .btn_certificates {
+    	width: inherit;
+    }
+
+    .operating-procedure_info, 
+    .reviews, .reviews h3, 
+    .quote-author, 
+    .publications {
+    	margin:0; 
+    	padding: 15px 15px; 
+    	width: inherit;
+    }
+	.currency{
+		display: block;
+			&::before {
+			content: attr(data-text);
+			}
+		}
+	.operating-procedure_info__text {
+		margin-bottom: 60px;
+	}
+	.operating-procedure {
+		padding-bottom: 60px;
+	}
+	footer nav {
+		display: none;
+	}
+	ul.breadcrumb {
+		margin-top: 280px;
+	}
+	.blog_container {
+		flex-direction: column-reverse;
+	}
+	.blog_content {
+		margin: 15px;
+		width: 95%;
+	}
+	.article_author, .article_date {
+		margin-top: 15px;
+	}
+	.article_title h3 {
+		margin-bottom: 15px;
+	}
+	.blog_pagination {
+		text-align: center;
+		margin-bottom: 34px;
+	}
+
+	.sidebar {
+		width: inherit;
+	}
+	.copyrights {
+    margin: 15px 0;}
+
+    .contact_info{
+		padding-top: 45px;
+		padding-bottom: 45px;
+	}
+	.contact_info_text, .list-contact {
+		margin:15px 15px 60px 15px;
+	}
+	.list-contact {
+		font-size:18px;}
+	.list-contact li {
+		flex-wrap: wrap;
+	}
+	.list-contact a {
+		display: table;
+		min-width: 200px;
+	}
+	.btn_form {
+		width: inherit; 
+	}
+		.feedback_container {
+		flex-wrap: wrap;
+		margin: 15px;
+	}
+	.user_signature { 
+		margin-left: 0px;
+	/*
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);*/
+	}
+	.feedback_message {
+		height: inherit;
+		padding-right: 0px;
+	}
+	.quote:before, .quote:after {
+		display: none;
+	}
+	.feedback_read_more {
+		margin: 25px 0;
+		transform: translateY(0px);
+	}
+    /* certificates */
+    .certificates_dates{
+       left: 0;
+    }
+    .certificates_dates::before {
+   
+    
+    }
+    .certificates_slider{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .certificates_slider::before {
+/*        display: none;*/
+    }
+    .certificat-three p, .certificat-two p, .certificat-four p, .certificat-four p, .certificat-five p{
+        
+            margin-left: 0px;
+            margin-top: 20px;
+    }
+    .certificates_slider__link {
+        justify-content: center;
+        margin-left: 0px;
+            margin-top: 20px;
+        display: flex;
+    }
+    /* certificates end*/
+		.feedback_full_message {
+		margin: 0; 
+		padding: 50px 15px 0 15px;
+	}
+ }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+			body {
+		padding-top:40px; 
+	}
+	.nav, .enter {
+		position: absolute; 
+		width: 320px; 
+		height: inherit;
+		background: #fff;
+		opacity: 0.9; 
+		
+		left:-300px; 
+		z-index: 99; 
+		transition: 1.2s 
+	}
+	.nav {
+		top:115px;
+	}
+	.enter {
+		top:65px;
+	}
+	.nav ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.nav ul li, .enter a{
+		margin: 25px;
+	}
+	.nav ul li a, .enter a{
+		color: #000; 
+		font-size: 14px;
+	}
+	.active {
+		left:0;
+	}
+	.toggle-btn {
+		display: block;
+	}
+	.nav .toggle-btn {
+		position: absolute; 
+		top:30px; 
+		left:280px;
+	}
+	.toggle-btn {
+		padding: 0 0 30px 15px;
+	}
+	.toggle-btn span {
+		width:40px; 
+		height: 5px; 
+		background: #0A303A; 
+		display: block; 
+		margin-top: 4px;
+		transition:0.8s;
+	}
+	.toggle-btn span:last-child {
+		width:20px;
+		transition:0.8s;
+	}
+
+	.toggle-btn.active span{
+		width:45px; 
+		transition:0.8s;
+	}
+    .photo {
+    	float: none; 
+    	margin-top: 15px;
+    }
+    .photo img {
+    	width: 100%;
+    	max-width: 420px;
+    } 
+	.blok_pink {
+		min-width: 337px;
+	}
+		ul.breadcrumb {
+		margin-top: 150px;
+	}
+	.blog_container {
+		flex-direction: column-reverse;
+	}
+	.blog_content {
+		margin: 15px;
+		width: 95%;
+	}
+	.article_author, .article_date {
+		margin-top: 15px;
+	}
+	.article_title h3 {
+		margin-bottom: 15px;
+	}
+	.blog_pagination {
+		text-align: center;
+		margin-bottom: 34px;
+	}
+
+	.sidebar {
+		width: inherit;
+	}
+	.copyrights {
+    margin: 15px 0;
+    }
+    
+    /* process*/
+    
+    .process {
+	padding: 50px 0;
+    }
+    .process_info{}
+    
+        .list_title__i{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .list_title {
+        font-size: 15px;
+        line-height: 25px;
+    }
+     /* certificates */
+    .certificates_dates{
+       left: 0;
+        top: 46%;
+    }
+    .certificates_dates::before {
+   
+    
+    }
+    .certificates_slider{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .certificates_slider::before {
+/*        display: none;*/
+    }
+    .certificat-three p, .certificat-two p, .certificat-four p, .certificat-four p, .certificat-five p{
+        
+            margin-left: 20%;
+            margin-top: 40px;
+    }
+    .certificates_slider__link {
+        
+        margin-left: 20%;
+            margin-top: 20px;
+        display: flex;
+    }
+    .certificat-three .certificates_dates, .certificat-four .certificates_dates{
+        top: 28%;
+    }
+    /* certificates end*/
+     
+}
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.enter {
+		position: absolute; 
+		width: 250px; 
+		height: inherit;
+		background: #fff;
+		opacity: 0.9; 
+		top:85px;
+		left:-300px; 
+		z-index: 99; 
+		transition: 1.2s ;		
+	}
+	.enter a {
+		margin: 25px;
+	}
+
+	.active {
+		left:0;
+	}
+	.toggle-btn {
+		display: block;
+	}
+	.nav .toggle-btn {
+		position: absolute; 
+		top:30px; 
+		left:280px;
+	}
+	.toggle-btn {
+		padding: 0 0 30px 15px;
+	}
+	.toggle-btn span {
+		width:40px; 
+		height: 5px; 
+		background: #0A303A; 
+		display: block; 
+		margin-top: 4px;
+		transition:0.8s;
+	}
+	.toggle-btn span:last-child {
+		width:20px;
+		transition:0.8s;
+	}
+
+	.toggle-btn.active span{
+		width:45px; 
+		transition:0.8s;
+	}  
+
+    .photo {
+    	float: none; 
+    	margin-top: 15px;
+    }
+    .photo img {
+    	width: 100%;
+    	max-width: 420px;
+    } 
+	.blok_pink {
+		min-width: 337px;
+	}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 	
+	.enter {
+		position: absolute; 
+		width: 250px; 
+		height: inherit;
+		background: #fff;
+		opacity: 0.9; 
+		top:85px;
+		left:-300px; 
+		z-index: 99; 
+		transition: 1.2s ;		
+	}
+	.enter a {
+		margin: 25px;
+	}
+
+	.active {
+		left:0;
+	}
+	.toggle-btn {
+		display: block;
+	}
+	.nav .toggle-btn {
+		position: absolute; 
+		top:30px; 
+		left:280px;
+	}
+	.toggle-btn {
+		padding: 0 0 30px 15px;
+	}
+	.toggle-btn span {
+		width:40px; 
+		height: 5px; 
+		background: #0A303A; 
+		display: block; 
+		margin-top: 4px;
+		transition:0.8s;
+	}
+	.toggle-btn span:last-child {
+		width:20px;
+		transition:0.8s;
+	}
+
+	.toggle-btn.active span{
+		width:45px; 
+		transition:0.8s;
+	} 
+}

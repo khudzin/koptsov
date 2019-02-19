@@ -1,0 +1,197 @@
+/* ------ modal-subscription, modal-order ------ */
+
+.modal-subscription {    
+}
+
+.modal-form {
+    padding: 5px;
+    background-color: #faf5f7;
+    padding: 49px 0;
+    text-align: center;
+    position: relative;
+}
+
+.modal-form h5 {
+    margin-bottom: 33px;
+}
+
+.box-modal_close {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 67px;
+    font-weight: bold;
+    color: #f0d0d1;
+    cursor: pointer;
+}
+.form-group {
+    margin-bottom: 45px;
+    text-align: center;
+    justify-content: center;
+}
+
+.modal-subscription form input {
+    background-color: #faf5f7;
+}
+.modal-subscription .btn_form {
+    background-color: #e4d7b4;
+    margin-top: 41px;
+}
+
+.form-group p {
+    margin-top: 6px;
+    display: block;
+    font-family: 'Proxima Nova-Light';
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 25px;
+
+}
+
+/* ------ input type="checkbox" ------ */
+
+/* The container */
+.container {
+    position: relative;
+    padding-left: 35px;
+    cursor: pointer;
+    font-family: 'Proxima Nova-Light';
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-left: 10px;
+    padding-top: 6px;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 26px;
+    width: 26px;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #d8d8d8;
+}
+
+.square {
+    border-radius: 0;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 7px;
+    left: 7px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #e4d7b4;
+}
+
+.container .square:after {
+    border-radius: 0;
+}
+
+/* ------ input type="checkbox" end------ */
+
+/* ------ select ------ */
+select {
+  font-family: 'Proxima Nova-Light';
+    font-size: 16px;
+    text-align: center;
+    color: rgb(89, 88, 89, 0.55);
+    width: 100%;
+    height: 41px;
+    border: none;
+	background: url("../img/select-img1.png") no-repeat 99% center #faf5f7;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none!important;
+}
+.custom-select {
+     border: 1px solid #CCC;
+    overflow: hidden; 
+    height: 41px;
+    background: #faf5f7;
+    width: 60%;
+    margin: 0 auto; 
+    
+   }
+/* ------ select end------ */
+
+/* ------ modal-subscription, modal-order end ------ */
+
+/* ------ modal-sertificat ------ */
+
+/* #formModal-sert{
+    padding: 49px 30px;
+    width: 100%;
+}  */
+.moda-sertificat_title{
+     text-align: center;
+    margin-bottom: 50px;
+   }
+.moda-sertificat_text{
+    font-family: 'Bodoni Nova';
+    font-size: 28px;
+    font-weight: bold;
+   
+}
+.moda-sertificat_picture{
+    overflow: auto;
+    margin-top: 25px;
+    height: 430px;
+}
+.moda-sertificat_picture img{
+     width: 450px;
+    height: 250px; 
+    margin-right: 3px;
+}
+ .moda-sertificat_picture img.v {
+    width: 200px;
+    height: 250px;
+}
+@media  (max-width: 575.98px) { 
+/*modal-certificates*/
+	
+    .moda-sertificat h4{ 
+    	font-size: 35px;
+    }
+    .moda-sertificat_text{
+        font-size: 16px;
+    }
+	.moda-sertificat_picture img{
+    margin-right: 0px;
+	width: 100%;
+	 height: 100%;
+}
+	/*modal-certificates end*/
+}

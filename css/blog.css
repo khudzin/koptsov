@@ -1,0 +1,204 @@
+/*Breadcrumbs */
+    /* Style the list */
+    ul.breadcrumb {
+        font-family: 'Bodoni Nova';
+        padding: 10px 16px;
+        list-style: none; 
+        margin-bottom: 60px; 
+    }
+
+    /* Display list items side by side */
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 40px;
+    }
+
+    /* Add symbol (—) before/behind each list item */
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "—\00a0";
+    }
+
+    ul.breadcrumb li:last-child::after {
+        padding: 8px;
+        color: #1f1f1f;
+        font-size: 44px;
+        content: "...\00a0";
+    }
+    /* Add a color to all links inside the list */
+    ul.breadcrumb li a {
+        color: #d7c896;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    ul.breadcrumb li:last-child a {
+        color: #1f1f1f;
+        font-size: 44px;
+        transition: 0.2s;
+    }
+
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #d7c896;
+        transition: 0.2s;
+    }
+/*Breadcrumbs end*/
+
+.blog_container {
+    display: flex;
+	flex-wrap: wrap;}
+
+/*Sidebar start*/
+	.sidebar {
+		background-color: #fafafa;
+		padding: 0 35px;
+		min-width: 125px;
+		width: 25%;
+	}
+
+	.sidebar h3{
+		font-family: 'Bodoni Nova';
+		font-size: 24px;
+		font-weight: bold;
+		color: #1f1f1f;
+		padding: 35px 0;	
+	}
+
+	.side_menu li:nth-child(2) {
+		border-top: 1px solid #cdcdcd;
+	}
+
+	.side_menu li {
+		padding: 20px 0;
+		border-bottom: 1px solid #cdcdcd;
+	}
+
+
+	.side_menu a {
+		font-family: 'Proxima Nova-Semibold';
+		font-size: 12px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		color: #000;
+		line-height: 0.9;
+		transition: 0.2s;
+	}
+	.side_menu a:hover, .news_link a:hover {
+		color: #d2c188;
+		transition: 0.2s;
+	}
+	
+	.news_date {
+		background-color: #f0d0d1;
+		padding: 10px 25px;
+		width: 85px;
+		font-size: 16px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		color: #fff;
+	}
+	.news_link {
+		padding: 15px 0;
+	}
+	.news_link a{
+		color: #000;
+		line-height: 1.5;
+		font-size: 16px;
+		transition: 0.2s;
+	}
+	.news_link a::after {
+		content: " ...";
+	}
+/*Sidebar end*/
+
+/*Blog Content start*/
+	.blog_content	{
+		margin-left: 60px;
+		width:60%;
+	}
+	.blog_content article{
+		margin-bottom: 60px; 
+	}
+	.blog_content h3 {
+		font-family: 'Bodoni Nova';
+		font-size: 30px;
+		color: #3c464b;
+	}
+	.article_misc {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.article_author {
+		font-family: 'Bodoni Nova';
+		font-style: italic;
+		font-size:16px;
+		color: #ccc;
+		margin-top: 45px;
+	}
+	.author_name {
+		color: #000;
+	}
+	.article_date {
+		font-family: 'Bdodoni';
+		font-size:26px;
+		font-weight: bold;
+		text-align: right;
+		color: #f0d0d1;
+		margin-top: 35px;
+	}
+	.article_preview{
+		clear: both;
+		margin: 20px 0 30px 0;
+	}
+	.article_preview p::after {
+		content: ' ...';
+	}
+	.article_tags {
+		font-size:12px;
+		font-weight: bold; 
+		color: #000;
+	}
+	.tag {
+		font-size:16px;
+		color: #ccc;
+	}
+	.tag:hover{
+		color: #d7c896;
+	}
+	.p_pages a, .p_more{
+		font-family: 'Bdodoni';
+		font-size: 26px;
+		color: #1f1f1f;
+		transition: 0.2s;
+	}
+	.p_pages a:hover, .p_more {
+		color: #d7c896;
+		transition: 0.2s;
+	}
+
+	.p_pages a+a:before, .p_more {
+        padding: 8px;
+        color: #313131;
+        font-family: 'Bodoni Nova';
+        content: "—\00a0";
+    }
+    .p_more {
+    	font-family: 'Bdodoni';
+    	color: #d7c896;
+    }
+	.current {
+		color:#d7c896!important;
+	}
+/*Blog Content end*/
+
+footer {
+	margin: 90px 25px 35px 25px;
+}
+.copyrights {
+	margin: 15px 0 15px 200px;
+	font-size: 16px;
+	text-align: center;
+	color:#8c8c8c;
+}

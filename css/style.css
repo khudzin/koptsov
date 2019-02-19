@@ -1,0 +1,925 @@
+
+/* ------ Подключение шрифтов ------ */
+
+@font-face {
+  font-family: 'Bdodoni Nova italic';
+  src: url('../font/BodoniNovaItalic.eot'); /* IE9 Compat Modes */
+  src: url('../font/BodoniNovaItalic.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+       url('../font/BodoniNovaItalic.woff2')     format('woff2'), /* Super Modern Browsers */
+       url('../font/BodoniNovaItalic.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../font/BodoniNovaItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../font/BodoniNovaItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Bdodoni';
+      src: url('../font/Bdodoni.eot'); /* IE9 Compat Modes */
+      src: url('../font/Bdodoni.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+           url('../font/Bdodoni.woff2')     format('woff2'), /* Super Modern Browsers */
+           url('../font/Bdodoni.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../font/Bdodoni.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('../font/Bdodoni.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Bodoni Nova';
+      src: url('../font/BodoniNova.eot'); /* IE9 Compat Modes */
+      src: url('../font/BodoniNova.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+           url('../font/BodoniNova.woff2')     format('woff2'), /* Super Modern Browsers */
+           url('../font/BodoniNova.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../font/BodoniNova.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('../font/BodoniNova.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Bodoni Nova Bold Italic';
+      src: url('../font/BodoniNovaBoldItalic.eot'); /* IE9 Compat Modes */
+      src: url('../font/BodoniNovaBoldItalic.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+           url('../font/BodoniNovaBoldItalic.woff2')     format('woff2'), /* Super Modern Browsers */
+           url('../font/BodoniNovaBoldItalic.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../font/BodoniNovaBoldItalic.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('../font/BodoniNovaBoldItalic.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Proxima Nova-Light';
+      src: url('../font/ProximaNova-Light.eot'); /* IE9 Compat Modes */
+      src: url('../font/ProximaNova-Light.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+           url('../font/ProximaNova-Light.woff2')     format('woff2'), /* Super Modern Browsers */
+           url('../font/ProximaNova-Light.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../font/ProximaNova-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('../font/ProximaNova-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Proxima Nova-Regular';
+      src: url('../font/ProximaNova-Regular.eot'); /* IE9 Compat Modes */
+      src: url('../font/ProximaNova-Regular.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+           url('../font/ProximaNova-Regular.woff2')     format('woff2'), /* Super Modern Browsers */
+           url('../font/ProximaNova-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../font/ProximaNova-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('../font/ProximaNova-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Proxima Nova-Semibold';
+      src: url('../font/ProximaNova-Semibold.eot'); /* IE9 Compat Modes */
+      src: url('../font/ProximaNova-Semibold.eot?#iefix')         format('embedded-opentype'), /* IE6-IE8 */
+           url('../font/ProximaNova-Semibold.woff2')     format('woff2'), /* Super Modern Browsers */
+           url('../font/ProximaNova-Semibold.woff') format('woff'), /* Pretty Modern Browsers */
+           url('../font/ProximaNova-Semibold.ttf')  format('truetype'), /* Safari, Android, iOS */
+           url('../font/ProximaNova-Semibold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Ralington';
+      src: url('../font/Ralington.otf');
+      }
+
+/* ------ Specification ------ */
+body{
+    font-family: 'Proxima Nova-Light';
+    font-size: 18px;
+    max-width: 1150px;
+    margin: 0 auto!important;
+    padding-top: 55px;
+     overflow: auto!important;
+}
+h1{
+ font-family: 'Bodoni Nova';   
+    font-size: 55px;
+    margin-left: 100px;
+    margin-bottom: 59px;
+    margin-top: 200px;
+    z-index: 1;
+}
+h2 {
+   font-family: 'Bodoni Nova';
+    font-size: 45px;
+    color: #000;
+}
+h3{
+  font-family: 'Bodoni Nova';
+    font-size: 35px;
+    color: #000; 
+    margin-bottom: 34px;
+}
+h4{
+   font-family: 'Bodoni Nova';
+    font-size: 55px;
+    color: #000;
+    margin-bottom: 33px;
+    text-align: center;
+}
+h5{
+  font-family: 'Bodoni Nova';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+h6{
+    font-family: 'Bodoni Nova';
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 33px;    
+}
+a, a:hover, a:active {
+    text-decoration: none;
+    outline: none;
+}
+a{
+    color: #000;
+}
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+p {
+   margin: 0;
+}
+input, input:hover, input:focus, input:active, button, button:hover, button:focus, button:active{
+	outline: none;
+}
+
+.img-adaptiv {
+    width: 100%;
+    max-width: 100%;
+    height: 45vh;
+    min-height: 460px;
+	display: block;
+    color: white;
+    background-size: cover;
+    background-position: center; 
+}
+.d-flex{
+    display: flex;
+}
+
+/* ------ HOME ------ */
+
+/* ------ Header ------ */
+
+.header{
+   
+}
+.logo {
+    text-align: center;
+    margin-bottom: 74px;
+}
+.logo span{
+    display: block;
+}
+.logo_title {
+	font-family: 'Ralington';
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.logo_text {
+	font-family: 'Proxima Nova-Light';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.logo_text__psych{
+    letter-spacing: 12px;
+    padding-left: 12px;
+    margin-top: 4px;
+    font-size: 14px;
+}
+.upperheader {
+    display: flex;
+    justify-content: space-between;
+}
+.language {
+    font-family: 'Bdodoni';
+}
+    .language a+a:before {
+        padding: 8px;
+        color: black;
+        position: relative;
+        bottom: 18px;
+        right:5px;
+        border-bottom: 1px solid #000;
+        content: " \00a0";
+}
+/* ------ Header --- nav ------ */
+.menu {
+	    justify-content: flex-end;
+}
+.menu__item {
+	margin-right: 40px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid transparent;
+	transition: 0.2s;
+}
+.menu li:last-child   {
+	margin-right: 0;
+}
+.menu__item a{
+    font-family: 'Proxima Nova-Semibold';
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  
+    line-height: 0.9;
+}
+.menu__item:active, .menu__item:hover, .menu__item:focus {
+    border-bottom: 3px solid #d2c188; transition: 0.2s;
+  
+}
+.toggle-btn:hover span{
+    background-color: #d2c188;
+}
+ a:hover{
+    color: #d2c188;
+}
+.offer {
+	justify-content: flex-end;
+    position: relative;
+    margin-top: 26px;
+}
+.offer_duis {
+	font-size: 40px;
+  font-family: 'Bodoni Nova';
+  color: #ccc;
+  line-height: 1.1;
+  text-align: right;
+    margin-right: 100px;
+}
+.info{
+    position: absolute;
+    background-color: #f0d0d1;
+    transform: translateX(5%);
+    top: 450px;
+    padding: 0 50px; 
+    z-index: 1;
+    width: 378px;
+    height:366px;
+}
+.info_title {
+    font-family: 'Bodoni Nova';
+	font-size: 30px;
+    margin-top: 120px;
+    margin-bottom: 90px;
+/*    width: 378px;*/
+    text-align: right;
+}
+.info_text{
+    font-family: 'Proxima Nova-Regular';
+    font-size: 17px;
+    width: 352px;
+    line-height: 1.2;
+    margin-bottom: 22px;
+}
+.info_author{
+    font-family: 'Proxima Nova-Semibold';
+    font-size: 12px;
+    width: 352px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    text-align: right;
+}
+.link_sliders{
+    background-color: #f0d0d1;
+/*    background-color: #E4D7B4;*/
+    width: 193px;
+    float: right;
+    position: relative;
+        top: 385px;
+    text-align: center;
+    padding: 30px 0;
+}
+.link_sliders a, .link_sliders span{
+    color: #000;
+    font-family: 'Proxima Nova-Regular';
+    font-weight: bold;
+}
+/*
+   .link_sladers a:hover, .link_sladers__right:hover{
+     color: #d2c188;
+} 
+*/
+
+.link_sliders:hover{
+     background-color: #E4D7B4;
+} 
+.svg_img{
+    padding-top: 10px;
+}
+.link_sliders__left .svg_img:hover { 
+        fill: rgb(210, 193, 136); 
+}
+/* ------ modern-psychiatry ------ */
+.modern-psychiatry, .specialist{
+    display: flex;
+    padding-right: 16px;
+    background-color: #faf6f7;
+    padding-bottom: 60px;
+    position: relative;
+}
+.modern-psychiatry_info{
+    z-index: 1;
+}
+.modern-psychiatry_text{
+    font-size: 18px;
+    margin-left: 205px;
+    margin-right: 100px;
+    z-index: 2;
+}
+.blok_right{
+   width: 417px;
+margin-top: 64px;
+border-right: 1px solid #000;
+padding-top: 37px;
+padding-right: 5px;
+margin-bottom: 125px;
+    z-index: 1;
+}
+.blok_right__text{
+    font-family: 'Proxima Nova-Semibold';
+    font-size: 12px;
+   transform: rotate(270deg);
+     transform-origin: right bottom 0;
+         position: absolute;
+    right: 50px;
+    top: -90px;
+    border-bottom: 1px solid #000;
+    width: 255px;
+        z-index: 3;
+}
+.link{
+/*    align-items: center;*/
+    justify-content: space-between;
+}
+.detail, .certificates, .btn_form{
+    font-family: 'Proxima Nova-Semibold';
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: 205px;
+    margin-top: 36px;
+    display: block;
+}
+.detail::before, .certificates::before, .btn_form::before{
+    content: '';
+    width: 29px;
+    height: 1px;
+    background-color: #000;
+    display: inline-block;
+margin-bottom: 3px;
+margin-right: 20px;
+}
+.detail:hover::before, .certificates:hover::before, .btn_form:hover::before{
+    background-color: #d2c188;
+}
+.btn_question, .btn_form{
+    padding: 20px 20px 16px 10px;
+    background-color: #e4d7b4;
+    margin-top: 55px;
+   }
+.section_num{
+    font-family: 'Bdodoni';
+    position: absolute;
+    font-size: 267px;
+   color: #fff;
+    right: 0;
+    top: 150px;
+}
+#brtext1 {
+    top:100px;
+}
+/* ------ areas ------ */
+
+.areas{
+    padding-top: 96px;
+    padding-bottom: 80px;
+}
+.link_section{
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+    font-size: 45px;
+    font-family: 'Bdodoni';
+    top: 420px;
+    margin-left: 40px;
+    position: relative;}
+    .link_section a+a:before {
+        padding: 8px;
+        color: black;
+        position: relative;
+        bottom: 35px;
+        right:10px;
+        border-bottom: 1px solid #000;
+        content: " \00a0";
+}
+.blok_pink{
+    position: relative;
+    width: 337px;
+    height: 184px;
+    background-color: #f0d0d1;
+    margin-bottom: 73px;
+    z-index: 1;
+}
+.pos{
+    position: relative;
+    margin-left: 195px;
+}
+.blok_pink__info{
+    width: 450px;
+    position: absolute;
+    top: 12px;
+    left: 65px;
+
+}
+.blok_pink__text{
+    font-size: 17px;
+    padding-left: 103px;
+    margin-top: 30px;
+}
+.blok_pink__text span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+.number{
+    font-family: 'Bdodoni';
+    color: #faf6f7;
+    font-size: 267px;
+    margin-top: -40px;
+    margin-left: 165px;
+    
+   
+}
+.areas_info, .benefits_info, .operating-procedure_info{
+    margin-left: 195px;
+}
+.areas_info__text, .operating-procedure_info__text{
+    color: #000;
+    opacity: 0.6;
+    margin-right: 25px;
+}
+.areas_info:nth-child(3) p, .areas_info:nth-child(8) p{
+    margin-top: 30px;
+    
+}
+.areas_info:nth-child(3) h3{
+    margin-top: 71px;
+}
+/*------ benefits ------ */
+
+.benefits{
+    padding-bottom: 110px;
+}
+.benefits_info {
+	font-family: 'Proxima Nova-Regular';
+}
+.benefits_info span {
+	 font-weight: bold;
+    margin-top: 62px;
+    margin-bottom: 46px;
+    display: block;
+    
+}
+.benefits_info__text, .areas_info__text{
+    margin-bottom: 27px;
+    opacity: 0.6;
+    display: flex; 
+    align-items: baseline;
+    margin-right: 25px;
+}
+
+.benefits_info__text:last-child{
+    margin-bottom: 0px;
+}
+.benefits_info__text::before{
+    content: '';
+    display: block;
+    min-width: 55px;
+    height: 6px;
+    background-color: #f0d0d1;
+    margin-right: 18px;
+}
+.pre-line::before {
+    content: '';
+    display: block;
+    min-width: 55px;
+    height: 6px;
+    background-color: #f0d0d1;
+    margin-right: 18px;}
+.benefits .blok_pink__text, .operating-procedure .blok_pink__text{
+    padding-right: 30px;
+}
+.bold {font-weight: bold;}
+/*------ specialist ------ */
+
+.specialist{
+    padding-top: 60px;
+    padding-left: 110px;
+    padding-right: 64px;
+}
+.specialist_info {
+    width: 100%;
+	
+}
+.specialist_info span{
+    font-family: 'Proxima Nova-Semibold';
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 36px;
+    display: block;
+    text-align: none;
+}
+.specialist_info h4{
+    font-family: 'Bodoni Nova';
+    font-weight: bold;
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+.specialist_text{
+    
+}
+
+.specialist_text__directions{
+    font-family: 'Bdodoni Nova italic';
+    font-size: 25px;
+    margin-bottom: 55px;
+}
+.specialist_text__certified{
+     font-family: 'Proxima Nova-Regular';
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.specialist_list{
+    font-family: 'Proxima Nova-Light';
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-right: 51px;
+}
+.specialist_list__nlp::before{
+    content: '1.';
+    font-family: 'Bdodoni';
+    font-size: 30px;
+    color: #e4b2ab;
+    margin-right: 10px;
+}
+.specialist_list__practitioner::before{
+    content: '2.';
+    font-family: 'Bdodoni';
+    font-size: 30px;
+    color: #e4b2ab;
+    margin-right: 10px;
+}
+.specialist_list__integral{
+    margin-bottom: 0;
+}
+.specialist_list__integral::before{
+    content: '3.';
+    font-family: 'Bdodoni';
+    font-size: 30px;
+    color: #e4b2ab;
+    margin-right: 10px;
+}
+.btn_certificates{
+    padding: 20px 20px 16px 10px;
+    background-color: #f0d0d1;
+    margin-top: 50px;
+        margin-left: 0px;
+    display: block;
+    width: 275px;
+    text-align: center;
+}
+.photo {
+	float: right;
+    margin-top: -240px;
+}
+
+/*------ operating-procedure ------ */
+
+.operating-procedure{
+    padding-top: 120px;
+    padding-bottom: 119px;
+}
+.operating-procedure_info__text{
+    margin-bottom: 26px;
+}
+.price{
+    font-family: 'Bdodoni';
+    font-size: 82px;
+    color: #d8c997;
+    }
+.currency{
+    font-family: 'Proxima Nova-Semibold';
+    font-size: 19px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 18px;
+}
+
+/*------ operating-procedure ------ */
+
+.publication-reviews{
+    
+}
+.reviews{
+    background-color: #faf6f7;
+    padding-top: 45px;
+    padding-bottom: 63px;
+    display: block;
+    width: 50%;
+    padding-left: 35px;
+    padding-right: 37px;
+}
+
+/*
+.reviews p::before{
+    content: '“';
+    font-family: 'Bdodoni';
+    font-size: 141px;
+    color: #f0d0d1;
+    display: inline-block;
+   
+}
+.reviews p::after{
+    content: ' " ';
+    font-family: 'Bdodoni';
+    font-size: 141px;
+    color: #f0d0d1;
+    display: inline-block;
+    line-height: 200px;
+}
+*/
+
+.reviews p{
+    margin-left: 25px;
+}
+
+.reviews h3{
+    margin-left: 109px;
+}
+
+
+.reviews .d-flex span{
+    font-family: 'Bdodoni';
+    font-size: 141px;
+    color: #f0d0d1;
+}
+.cov{
+    transform: rotate(180deg);
+}
+.quote-author{
+    margin-left: 120px;
+    font-family: 'Proxima Nova-Regular';
+    font-size: 19px;
+    font-weight: bold;
+}
+.publications{
+    background-color: #f0d0d1;
+    padding-top: 45px;
+    padding-left: 59px;
+    padding-right: 57px;
+    width: 50%;
+}
+.publications span{
+    
+}
+
+/* -----   CONTACT ----- */
+
+.contact_info{
+    padding-top: 90px;
+}
+/*Breadcrumbs */
+    /* Style the list */
+.contact_info .breadcrumb{
+    margin-bottom: 83px;
+}
+    ul.breadcrumb {
+        font-family: 'Bodoni Nova';
+        padding: 10px 16px;
+        list-style: none; 
+        margin-top: 60px; 
+    }
+
+    /* Display list items side by side */
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 40px;
+    }
+
+    /* Add symbol (—) before/behind each list item */
+    ul.breadcrumb li+li:before {
+        padding: 8px;
+        color: black;
+        content: "—\00a0";
+    }
+
+    ul.breadcrumb li:last-child::after {
+        padding: 8px;
+        color: #1f1f1f;
+        font-size: 44px;
+        content: "...\00a0";
+    }
+    /* Add a color to all links inside the list */
+    ul.breadcrumb li a {
+        color: #d7c896;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    ul.breadcrumb li:last-child a {
+        color: #1f1f1f;
+        font-size: 44px;
+        transition: 0.2s;
+    }
+
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #d7c896;
+        transition: 0.2s;
+    }
+/*Breadcrumbs end*/
+
+/* ----- contact_info ------*/
+.contact_info{
+    padding-bottom: 75px;
+}
+.contact_info_text{
+    font-family: 'Proxima Nova-Light';
+    font-size: 19px;
+    margin-left: 80px;
+    opacity: 0.6;
+    
+}
+.contact_info_text span{
+    font-weight: bold;
+}
+.list-contact {
+	font-family: 'Bodoni Nova';
+    display: block;
+    margin-top: 80px;
+    margin-left: 305px;
+    font-size: 22px;
+}
+.list-contact li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    
+}
+.list-contact li:nth-child(1)::before {
+	content: '';
+    min-width: 42px;
+    height: 41px;
+    background-image: url(../img/tel.png);
+    margin-right: 9px;
+    
+}
+.list-contact li:nth-child(2)::before {
+	content: '';
+    min-width: 41px;
+    height: 41px;
+    background-image: url(../img/email.png);
+    margin-right: 9px;
+}
+.list-contact li:nth-child(3)::before {
+	content: '';
+    min-width: 41px;
+    height: 41px;
+    background-image: url(../img/skype.png);
+    margin-right: 9px;
+}
+.list-contact li:nth-child(4)::before {
+	content: '';
+    min-width: 41px;
+    height: 41px;
+    background-image: url(../img/telegram.png);
+    margin-right: 9px;
+}
+.form-group{
+   margin-bottom: 45px;
+    text-align: center;
+}
+input{
+    font-family: 'Proxima Nova-Light';
+       width: 60%;
+    border: none;
+    border-bottom: 1px solid #000;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.6;
+    padding: 5px;
+    text-align: center;
+}
+/* ----- feedback ------*/
+
+.feedback {
+	background-color: #faf6f7;
+    padding: 61px 0;
+}
+.form-group{
+   margin-bottom: 45px;
+    text-align: center;
+}
+.form-group:nth-child(4){
+    margin-bottom: 65px;
+}
+input{
+    font-family: 'Proxima Nova-Light';
+       width: 60%;
+    border: none;
+    border-bottom: 1px solid #bfbcbd;
+    font-size: 16px;
+    color: #000;
+    opacity: 0.6;
+    padding: 5px;
+    text-align: center;
+    background-color: #faf6f7;
+}
+.btn_form{
+    max-width: 350px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*------ footer ------ */
+footer {
+    margin: 90px 25px 35px 25px;
+}
+footer .menu{
+    justify-content: center;
+}
+
+.social-cont {
+    display:flex; 
+    justify-content: center;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 800;
+}
+.social img:first-child {
+    padding: 5px;
+}
+.social img:nth-child(2) {
+    width: 30px; height: 30px;
+    padding: 5px;
+}
+.social>div {
+    height: 30px;
+    border-left:1px solid #000;
+    margin-bottom: 5px;  
+}
+.copyrights {
+    margin: 15px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #8c8c8c;
+     justify-content: center;
+}
+
+
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+width: 100vw;  /*Full width */ 
+   height: 100vh; /* Full height */ 
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 8% auto; /* 15% from the top and centered */
+  
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  float: right;
+  font-size: 45px;
+/*  padding: 15px;*/
+    margin-right: 15px;
+    font-weight: bold;
+    position: relative;
+    z-index: 11;
+    color: #f0d0d1;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.informacion {
+    padding-top: 90px;
+	margin-bottom: 62px;}
